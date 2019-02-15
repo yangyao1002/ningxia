@@ -60,7 +60,75 @@
           <dd>自然风光</dd>
         </dl>
       </div>
+      <div class="back"></div>
+      <div class="bottom-nav">
+        <li>全部城市</li>
+        <li>综合排序</li>
+        <li>预定时限</li>
+      </div>
+      <div class="list">
+        <dl>
+          <dt><img src="./image/banner_02.jpg" alt=""></dt>
+          <dd>
+            <h5><span>镇北堡西部影城</span><span>5A景区</span></h5>
+            <p><span>可定明日</span><span>自然风光</span></p>
+            <div class="dd-bottom">
+              <div class="dd-left">
+                <li><span>4.5分</span><span>8976人评价</span></li>
+                <li>距市中心4.4公里</li>
+              </div>
+              <div class="dd-right">
+                <li>￥86元</li>
+                <li>已售1238</li>
+              </div>
+            </div>
+          </dd>
+        </dl>
+        <dl>
+            <dt><img src="./image/banner_02.jpg" alt=""></dt>
+            <dd>
+              <h5><span>镇北堡西部影城</span><span>5A景区</span></h5>
+              <p><span>可定明日</span><span>自然风光</span></p>
+              <div class="dd-bottom">
+                <div class="dd-left">
+                  <li><span>4.5分</span><span>8976人评价</span></li>
+                  <li>距市中心4.4公里</li>
+                </div>
+                <div class="dd-right">
+                  <li>￥86元</li>
+                  <li>已售1238</li>
+                </div>
+              </div>
+            </dd>
+          </dl>
+          <dl>
+              <dt><img src="./image/banner_02.jpg" alt=""></dt>
+              <dd>
+                <h5><span>镇北堡西部影城</span><span>5A景区</span></h5>
+                <p><span>可定明日</span><span>自然风光</span></p>
+                <div class="dd-bottom">
+                  <div class="dd-left">
+                    <li><span>4.5分</span><span>8976人评价</span></li>
+                    <li>距市中心4.4公里</li>
+                  </div>
+                  <div class="dd-right">
+                    <li>￥86元</li>
+                    <li>已售1238</li>
+                  </div>
+                </div>
+              </dd>
+            </dl>
+      </div>
     </section>
   </div>
+  <script src='./js/ajax.js'></script>
+  <script>
+    ajax({
+      url: '/api/data',
+      success: (res) => {
+        console.log(res)
+      }
+    })
+  </script>
 </body>
 </html>
